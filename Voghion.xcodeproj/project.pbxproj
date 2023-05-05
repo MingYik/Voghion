@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182D67C32A03A4580081FFE7 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 182D67C22A03A4580081FFE7 /* RxMoya */; };
+		182D67C62A03C89E0081FFE7 /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = 182D67C52A03C89E0081FFE7 /* LookinServer */; };
+		1878D5B929FBCCE20074141D /* KingfisherWebP in Frameworks */ = {isa = PBXBuildFile; productRef = 1878D5B829FBCCE20074141D /* KingfisherWebP */; };
+		18D6FD3B29F6704B003A2AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD3A29F6704B003A2AD6 /* AppDelegate.swift */; };
+		18D6FD4429F6704C003A2AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D6FD4329F6704C003A2AD6 /* Assets.xcassets */; };
+		18D6FD4729F6704C003A2AD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D6FD4529F6704C003A2AD6 /* LaunchScreen.storyboard */; };
+		18D6FD5329F67B1F003A2AD6 /* VGFullscreenPopGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD5129F67B1F003A2AD6 /* VGFullscreenPopGesture.swift */; };
+		18D6FD5429F67B1F003A2AD6 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD5229F67B1F003A2AD6 /* UIColor+Utils.swift */; };
+		18D6FD5C29F67BA6003A2AD6 /* VGPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD5729F67BA6003A2AD6 /* VGPageVC.swift */; };
+		18D6FD5E29F67BA6003A2AD6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD5929F67BA6003A2AD6 /* ProfileViewController.swift */; };
+		18D6FD6129F67D90003A2AD6 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 18D6FD6029F67D90003A2AD6 /* Kingfisher */; };
+		18D6FD6729F68333003A2AD6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18D6FD6629F68333003A2AD6 /* SnapKit */; };
+		18D6FD6929F6839A003A2AD6 /* referral.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18D6FD6829F6839A003A2AD6 /* referral.gif */; };
+		18D6FD6B29F68A27003A2AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD6A29F68A27003A2AD6 /* ViewController.swift */; };
+		18D6FD7C29F90A09003A2AD6 /* VGNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD7B29F90A09003A2AD6 /* VGNavigationController.swift */; };
+		18D6FD7E29F90A1C003A2AD6 /* VGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD7D29F90A1C003A2AD6 /* VGViewController.swift */; };
+		18D6FD8029F90B95003A2AD6 /* VGTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD7F29F90B95003A2AD6 /* VGTabBarController.swift */; };
+		18D6FD8229F9131A003A2AD6 /* VGKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD8129F9131A003A2AD6 /* VGKeyChain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D6FD3729F6704B003A2AD6 /* Voghion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voghion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D6FD3A29F6704B003A2AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D6FD4329F6704C003A2AD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D6FD4629F6704C003A2AD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D6FD5129F67B1F003A2AD6 /* VGFullscreenPopGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGFullscreenPopGesture.swift; sourceTree = "<group>"; };
+		18D6FD5229F67B1F003A2AD6 /* UIColor+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		18D6FD5729F67BA6003A2AD6 /* VGPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VGPageVC.swift; sourceTree = "<group>"; };
+		18D6FD5929F67BA6003A2AD6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		18D6FD6829F6839A003A2AD6 /* referral.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = referral.gif; sourceTree = "<group>"; };
+		18D6FD6A29F68A27003A2AD6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18D6FD7B29F90A09003A2AD6 /* VGNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGNavigationController.swift; sourceTree = "<group>"; };
+		18D6FD7D29F90A1C003A2AD6 /* VGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGViewController.swift; sourceTree = "<group>"; };
+		18D6FD7F29F90B95003A2AD6 /* VGTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGTabBarController.swift; sourceTree = "<group>"; };
+		18D6FD8129F9131A003A2AD6 /* VGKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGKeyChain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D6FD3429F6704B003A2AD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182D67C62A03C89E0081FFE7 /* LookinServer in Frameworks */,
+				18D6FD6729F68333003A2AD6 /* SnapKit in Frameworks */,
+				18D6FD6129F67D90003A2AD6 /* Kingfisher in Frameworks */,
+				182D67C32A03A4580081FFE7 /* RxMoya in Frameworks */,
+				1878D5B929FBCCE20074141D /* KingfisherWebP in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D6FD2E29F6704B003A2AD6 = {
+			isa = PBXGroup;
+			children = (
+				18D6FD3929F6704B003A2AD6 /* Voghion */,
+				18D6FD3829F6704B003A2AD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D6FD3829F6704B003A2AD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D6FD3729F6704B003A2AD6 /* Voghion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D6FD3929F6704B003A2AD6 /* Voghion */ = {
+			isa = PBXGroup;
+			children = (
+				18D6FD5129F67B1F003A2AD6 /* VGFullscreenPopGesture.swift */,
+				18D6FD7B29F90A09003A2AD6 /* VGNavigationController.swift */,
+				18D6FD7F29F90B95003A2AD6 /* VGTabBarController.swift */,
+				18D6FD7D29F90A1C003A2AD6 /* VGViewController.swift */,
+				18D6FD5929F67BA6003A2AD6 /* ProfileViewController.swift */,
+				18D6FD6A29F68A27003A2AD6 /* ViewController.swift */,
+				18D6FD5229F67B1F003A2AD6 /* UIColor+Utils.swift */,
+				18D6FD8129F9131A003A2AD6 /* VGKeyChain.swift */,
+				18D6FD5729F67BA6003A2AD6 /* VGPageVC.swift */,
+				18D6FD5029F67999003A2AD6 /* Launch */,
+				18D6FD4E29F67984003A2AD6 /* Resource */,
+			);
+			path = Voghion;
+			sourceTree = "<group>";
+		};
+		18D6FD4E29F67984003A2AD6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18D6FD6829F6839A003A2AD6 /* referral.gif */,
+				18D6FD4329F6704C003A2AD6 /* Assets.xcassets */,
+				18D6FD4529F6704C003A2AD6 /* LaunchScreen.storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		18D6FD5029F67999003A2AD6 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				18D6FD3A29F6704B003A2AD6 /* AppDelegate.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D6FD3629F6704B003A2AD6 /* Voghion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D6FD4B29F6704C003A2AD6 /* Build configuration list for PBXNativeTarget "Voghion" */;
+			buildPhases = (
+				18D6FD3329F6704B003A2AD6 /* Sources */,
+				18D6FD3429F6704B003A2AD6 /* Frameworks */,
+				18D6FD3529F6704B003A2AD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voghion;
+			packageProductDependencies = (
+				18D6FD6029F67D90003A2AD6 /* Kingfisher */,
+				18D6FD6629F68333003A2AD6 /* SnapKit */,
+				1878D5B829FBCCE20074141D /* KingfisherWebP */,
+				182D67C22A03A4580081FFE7 /* RxMoya */,
+				182D67C52A03C89E0081FFE7 /* LookinServer */,
+			);
+			productName = Voghion;
+			productReference = 18D6FD3729F6704B003A2AD6 /* Voghion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D6FD2F29F6704B003A2AD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					18D6FD3629F6704B003A2AD6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 18D6FD3229F6704B003A2AD6 /* Build configuration list for PBXProject "Voghion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D6FD2E29F6704B003A2AD6;
+			packageReferences = (
+				18D6FD5F29F67D90003A2AD6 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				18D6FD6529F68333003A2AD6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				1878D5B729FBCCE20074141D /* XCRemoteSwiftPackageReference "KingfisherWebP" */,
+				182D67C12A03A4580081FFE7 /* XCRemoteSwiftPackageReference "Moya" */,
+				182D67C42A03C89E0081FFE7 /* XCRemoteSwiftPackageReference "LookinServer" */,
+			);
+			productRefGroup = 18D6FD3829F6704B003A2AD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D6FD3629F6704B003A2AD6 /* Voghion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D6FD3529F6704B003A2AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D6FD4729F6704C003A2AD6 /* LaunchScreen.storyboard in Resources */,
+				18D6FD6929F6839A003A2AD6 /* referral.gif in Resources */,
+				18D6FD4429F6704C003A2AD6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D6FD3329F6704B003A2AD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D6FD5329F67B1F003A2AD6 /* VGFullscreenPopGesture.swift in Sources */,
+				18D6FD7C29F90A09003A2AD6 /* VGNavigationController.swift in Sources */,
+				18D6FD6B29F68A27003A2AD6 /* ViewController.swift in Sources */,
+				18D6FD8229F9131A003A2AD6 /* VGKeyChain.swift in Sources */,
+				18D6FD8029F90B95003A2AD6 /* VGTabBarController.swift in Sources */,
+				18D6FD3B29F6704B003A2AD6 /* AppDelegate.swift in Sources */,
+				18D6FD5C29F67BA6003A2AD6 /* VGPageVC.swift in Sources */,
+				18D6FD7E29F90A1C003A2AD6 /* VGViewController.swift in Sources */,
+				18D6FD5E29F67BA6003A2AD6 /* ProfileViewController.swift in Sources */,
+				18D6FD5429F67B1F003A2AD6 /* UIColor+Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D6FD4529F6704C003A2AD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D6FD4629F6704C003A2AD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D6FD4929F6704C003A2AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D6FD4A29F6704C003A2AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D6FD4C29F6704C003A2AD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 924ADUL3U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Voghion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Voghion;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voghion.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = voghion_dev;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18D6FD4D29F6704C003A2AD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 924ADUL3U3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Voghion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Voghion;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.voghion.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = voghion_appstore;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D6FD3229F6704B003A2AD6 /* Build configuration list for PBXProject "Voghion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D6FD4929F6704C003A2AD6 /* Debug */,
+				18D6FD4A29F6704C003A2AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D6FD4B29F6704C003A2AD6 /* Build configuration list for PBXNativeTarget "Voghion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D6FD4C29F6704C003A2AD6 /* Debug */,
+				18D6FD4D29F6704C003A2AD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		182D67C12A03A4580081FFE7 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		182D67C42A03C89E0081FFE7 /* XCRemoteSwiftPackageReference "LookinServer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QMUI/LookinServer/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		1878D5B729FBCCE20074141D /* XCRemoteSwiftPackageReference "KingfisherWebP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yeatse/KingfisherWebP.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		18D6FD5F29F67D90003A2AD6 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		18D6FD6529F68333003A2AD6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		182D67C22A03A4580081FFE7 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 182D67C12A03A4580081FFE7 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		182D67C52A03C89E0081FFE7 /* LookinServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 182D67C42A03C89E0081FFE7 /* XCRemoteSwiftPackageReference "LookinServer" */;
+			productName = LookinServer;
+		};
+		1878D5B829FBCCE20074141D /* KingfisherWebP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1878D5B729FBCCE20074141D /* XCRemoteSwiftPackageReference "KingfisherWebP" */;
+			productName = KingfisherWebP;
+		};
+		18D6FD6029F67D90003A2AD6 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D6FD5F29F67D90003A2AD6 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		18D6FD6629F68333003A2AD6 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18D6FD6529F68333003A2AD6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 18D6FD2F29F6704B003A2AD6 /* Project object */;
+}
