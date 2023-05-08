@@ -46,7 +46,7 @@ class VGViewController: UIViewController {
     }
     
     open func customRightBarButtonItem(with title: String? = nil, image: UIImage? = nil) {
-        let rightBtn = UIButton(type: .custom);
+        let rightBtn = UIButton(type: .custom)
         if let btnTitle = title {
             rightBtn.setTitle(btnTitle, for: .normal)
         }else {

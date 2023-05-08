@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		182D67C32A03A4580081FFE7 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 182D67C22A03A4580081FFE7 /* RxMoya */; };
 		182D67C62A03C89E0081FFE7 /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = 182D67C52A03C89E0081FFE7 /* LookinServer */; };
+		182D67C92A0508190081FFE7 /* VGAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D67C82A0508190081FFE7 /* VGAppearance.swift */; };
 		1878D5B929FBCCE20074141D /* KingfisherWebP in Frameworks */ = {isa = PBXBuildFile; productRef = 1878D5B829FBCCE20074141D /* KingfisherWebP */; };
 		18D6FD3B29F6704B003A2AD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD3A29F6704B003A2AD6 /* AppDelegate.swift */; };
 		18D6FD4429F6704C003A2AD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D6FD4329F6704C003A2AD6 /* Assets.xcassets */; };
@@ -21,13 +22,13 @@
 		18D6FD6729F68333003A2AD6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 18D6FD6629F68333003A2AD6 /* SnapKit */; };
 		18D6FD6929F6839A003A2AD6 /* referral.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18D6FD6829F6839A003A2AD6 /* referral.gif */; };
 		18D6FD6B29F68A27003A2AD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD6A29F68A27003A2AD6 /* ViewController.swift */; };
-		18D6FD7C29F90A09003A2AD6 /* VGNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD7B29F90A09003A2AD6 /* VGNavigationController.swift */; };
 		18D6FD7E29F90A1C003A2AD6 /* VGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD7D29F90A1C003A2AD6 /* VGViewController.swift */; };
 		18D6FD8029F90B95003A2AD6 /* VGTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD7F29F90B95003A2AD6 /* VGTabBarController.swift */; };
 		18D6FD8229F9131A003A2AD6 /* VGKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6FD8129F9131A003A2AD6 /* VGKeyChain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182D67C82A0508190081FFE7 /* VGAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGAppearance.swift; sourceTree = "<group>"; };
 		18D6FD3729F6704B003A2AD6 /* Voghion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voghion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D6FD3A29F6704B003A2AD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D6FD4329F6704C003A2AD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		18D6FD5929F67BA6003A2AD6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		18D6FD6829F6839A003A2AD6 /* referral.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = referral.gif; sourceTree = "<group>"; };
 		18D6FD6A29F68A27003A2AD6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18D6FD7B29F90A09003A2AD6 /* VGNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGNavigationController.swift; sourceTree = "<group>"; };
 		18D6FD7D29F90A1C003A2AD6 /* VGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGViewController.swift; sourceTree = "<group>"; };
 		18D6FD7F29F90B95003A2AD6 /* VGTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGTabBarController.swift; sourceTree = "<group>"; };
 		18D6FD8129F9131A003A2AD6 /* VGKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGKeyChain.swift; sourceTree = "<group>"; };
@@ -80,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				18D6FD5129F67B1F003A2AD6 /* VGFullscreenPopGesture.swift */,
-				18D6FD7B29F90A09003A2AD6 /* VGNavigationController.swift */,
 				18D6FD7F29F90B95003A2AD6 /* VGTabBarController.swift */,
 				18D6FD7D29F90A1C003A2AD6 /* VGViewController.swift */,
 				18D6FD5929F67BA6003A2AD6 /* ProfileViewController.swift */,
@@ -108,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				18D6FD3A29F6704B003A2AD6 /* AppDelegate.swift */,
+				182D67C82A0508190081FFE7 /* VGAppearance.swift */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -197,8 +197,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182D67C92A0508190081FFE7 /* VGAppearance.swift in Sources */,
 				18D6FD5329F67B1F003A2AD6 /* VGFullscreenPopGesture.swift in Sources */,
-				18D6FD7C29F90A09003A2AD6 /* VGNavigationController.swift in Sources */,
 				18D6FD6B29F68A27003A2AD6 /* ViewController.swift in Sources */,
 				18D6FD8229F9131A003A2AD6 /* VGKeyChain.swift in Sources */,
 				18D6FD8029F90B95003A2AD6 /* VGTabBarController.swift in Sources */,

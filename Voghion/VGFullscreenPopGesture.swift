@@ -218,7 +218,7 @@ extension UINavigationController {
     public var vg_fullscreenPopGestureRecognizer: UIPanGestureRecognizer {
         guard let pan = objc_getAssociatedObject(self, RuntimeKey.key_fullscreenPopGestureRecognizer!) as? UIPanGestureRecognizer else {
             let panGesture = UIPanGestureRecognizer()
-            panGesture.maximumNumberOfTouches = 1;
+            panGesture.maximumNumberOfTouches = 1
             objc_setAssociatedObject(self, RuntimeKey.key_fullscreenPopGestureRecognizer!, panGesture, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
             return panGesture
         }
@@ -255,6 +255,9 @@ extension UINavigationController {
                 // Disable the onboard gesture recognizer.
                 self.interactivePopGestureRecognizer?.isEnabled = false
             }
+        }
+        if viewControllers.count > 0 {
+            viewController.hidesBottomBarWhenPushed = true
         }
         // Handle perferred navigation bar appearance.
         self.vg_setupViewControllerBasedNavigationBarAppearanceIfNeeded(viewController)

@@ -63,6 +63,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     //MARK: - Third Party
     public func preLaunchThirdParty() {
+        // 全局配置化
+        VGAppearance.configure()
         // Kingfisher解码扩展
         let modifier = AnyModifier { request in
             var req = request
@@ -70,14 +72,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             req.addValue("image/webp */*", forHTTPHeaderField: "Accept")
             return req
         }
-        
         KingfisherManager.shared.defaultOptions += [
             .requestModifier(modifier),
             .processor(WebPProcessor.default),
             .cacheSerializer(WebPSerializer.default)
         ]
 
-        VGFullscreenPopGesture.configure()
     }
     
     func deferLaunchThirdParty() {

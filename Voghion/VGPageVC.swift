@@ -139,7 +139,7 @@ class VGPageVC: VGViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        title = "首页\(navigationController!.viewControllers.count)"
+        navigationItem.title = "首页\(navigationController!.viewControllers.count)"
         if navigationController!.viewControllers.count % 2 == 0 {
             view.backgroundColor = .white
         } else {
